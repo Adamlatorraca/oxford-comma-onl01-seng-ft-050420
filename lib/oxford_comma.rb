@@ -1,4 +1,5 @@
 def oxford_comma(array)
+<<<<<<< HEAD
   if array.length == 1
     return "#{array[0]}"
   elsif array.length == 2
@@ -14,3 +15,14 @@ end
 # if array length = 2 then add "and" between elements
 # if array length = 3 then add commas and add "and"
 # if array length > 3 then add commas and add "and"
+=======
+  string = array.join
+  return string
+  if array.size == 2
+    return array.join(" and ")
+  elsif array.size == 3
+    return array.join(", and ")
+  else
+    return "yaaaay"
+end
+>>>>>>> d06a1682e60af95425a4e6cc6b429e800f50b2c3
